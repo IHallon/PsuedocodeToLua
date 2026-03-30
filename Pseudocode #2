@@ -1,1 +1,19 @@
+-- Have a user input two numbers, add them together, and print the results.
+print("Enter the first number")
+number1 = tonumber(io.read())
 
+while number1 == nil do
+	print("That's not a number, try again!")
+	number1 = tonumber(io.read())
+end
+
+print("Enter the second number")
+number2 = tonumber(io.read())
+
+while number2 == nil do
+	print("That's not a number, try again!")
+	number2 = tonumber(io.read())
+end
+
+total = number1 + number2
+print("The total is " .. total)

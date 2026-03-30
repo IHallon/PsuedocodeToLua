@@ -1,1 +1,4 @@
-
+-- Convert a user-input into all caps, print the result.
+print("Please enter some")
+phrase = io.read()
+print(string.upper(phrase))

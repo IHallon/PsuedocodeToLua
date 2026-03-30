@@ -1,1 +1,20 @@
+-- Have a user input an unknown amount of numbers, add them together and print the results.
+done = "y"
+total = 0
+newNumber = 0
 
+while done == "y" do
+	print("Enter a number")
+	newNumber = tonumber(io.read())
+	
+	while newNumber == nil do
+		print("Not a number, try again!")
+		newNumber = tonumber(io.read())
+	end
+	
+	total = total + newNumber
+	print("Enter a number")
+
+end
+
+print("The total is " .. total)

@@ -4,18 +4,18 @@ done = "y"
 total = 0
 newNumber = 0
 
-while done == "y" do -- While the user wants to input another number
-	print("Enter a number") -- Ask the user for a number
-	newNumber = tonumber(io.read()) -- Read the users input and check if it is a number
+while done == "y" do -- While the user wants to input another number.
+	print("Enter a number") -- Ask the user for a number.
+	newNumber = tonumber(io.read()) -- Read the users input and check if it is a number.
 	
-	while newNumber == nil do -- If the user's input is not a number
-		print("Not a number, try again!") -- Asks the user for a different input
-		newNumber = tonumber(io.read()) -- Read the user's input and checks if this is a number
+	while newNumber == nil do -- If the user's input is not a number.
+		print("Not a number, try again!") -- Asks the user for a different input.
+		newNumber = tonumber(io.read()) -- Read the user's input and checks if this is a number.
 	end
 	
-	total = total + newNumber -- Add the user's input to the current total
-	print("Do you want to enter another number? Yes (Y) or No (N)") -- Ask if the user wants to input another number
-	done = io.read() -- Ask if the user is done
+	total = total + newNumber -- Add the user's input to the current total.
+	print("Do you want to enter another number? Yes (Y) or No (N)") -- Ask if the user wants to input another number.
+	done = io.read() -- Ask if the user is done.
 end
 
-print("The total is " .. total)  -- Print the result
+print("The total is " .. total)  -- Print the result.

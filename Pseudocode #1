@@ -1,5 +1,5 @@
 -- Convert a user-input into all caps, print the result.
-print("Please enter something") -- Asks the user for an input
-local phrase = io.read() -- Reads the user's input
-local capitalize = string.upper(phrase) -- Converts the user's input to all caps
-print(capitalize) -- Prints the user's input now in uppercase
+print("Please enter something") -- Asks the user for an input.
+local phrase = io.read() -- Reads the user's input.
+local capitalize = string.upper(phrase) -- Converts the user's input to all caps.
+print(capitalize) -- Prints the user's input now in uppercase.

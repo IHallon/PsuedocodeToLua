@@ -4,15 +4,15 @@ number1 = tonumber(io.read()) -- Read the user's input and checks if this is a n
 
 while number1 == nil do -- If the user's input is not a number.
 	print("That's not a number, try again!") -- Asks the user for a different input.
-	number1 = tonumber(io.read()) -- Read the input and checks if this is a number.
+	number1 = tonumber(io.read()) -- Read the user's input and checks if this is a number.
 end
 
 print("Enter the second number") -- Ask the user to input the second number.
-number2 = tonumber(io.read()) -- Read the input and checks if this is a number.
+number2 = tonumber(io.read()) -- Read the user's input and checks if this is a number.
 
 while number2 == nil do -- If the user's input is not a number.
 	print("That's not a number, try again!") -- Asks the user for a different input.
-	number2 = tonumber(io.read()) -- Read the input and checks if this is a number.
+	number2 = tonumber(io.read()) -- Read the user's input and checks if this is a number.
 end
 
 total = number1 + number2 -- Add the two numbers the user inputted together.

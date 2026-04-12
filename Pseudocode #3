@@ -19,4 +19,4 @@ while done == "y" do -- While the user wants to input another number.
 	done = io.read() -- Ask if the user is done.
 end
 
-print("The total is " .. total)  -- Print the result.
+print("The total is " .. total) -- Print the result.

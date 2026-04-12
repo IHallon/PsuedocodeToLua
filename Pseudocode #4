@@ -1,1 +1,20 @@
+-- Have a user input a maximum numbers, print out a random number between 0 and the user's input, and give the user the option to try again or stop.
+-- Variables
+continue = "y"
+math.randomseed(os.time())
+math.random() math.random() math.random()
 
+while continue == "y" do -- While the user wants to continue.
+	print("Enter a maximum value") -- Ask the user to input a maximum limit.
+	maxNumber = tonumber(io.read()) -- Read the user's input and checks if this is a number.
+	
+	while maxNumber == nil do -- If the user's input is not a number.
+		print("Not a number, try again!") -- Asks the user for a different input.
+		maxNumber = tonumber(io.read()) -- Read the user's input and checks if this is a number.
+	end
+	
+	randomNumber = math.random(0, maxNumber) -- Generate a random number between 0 and the user's input.
+	print("Your random number " .. randomNumber) -- Prints out a random number.
+	print("Press Y to get another number, press N to stop") -- Ask the user if they want to continue.
+	continue = io.read() -- Ask if the user is done.
+end

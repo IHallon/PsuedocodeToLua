@@ -21,4 +21,4 @@ for x = 1, 10 do -- Repeats the program 10 times.
 	end
 end
 
-print("There were " .. evenCounter .. "even numbers and " .. evenCounter .. "odd numbers.") -- Print the result.
+print("There were " .. evenCounter .. "even numbers and " .. oddCounter .. "odd numbers.") -- Print the result.

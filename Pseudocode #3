@@ -6,7 +6,7 @@ newNumber = 0
 
 while done == "y" do -- While the user wants to input another number.
 	print("Enter a number") -- Ask the user for a number.
-	newNumber = tonumber(io.read()) -- Read the users input and check if it is a number.
+	newNumber = tonumber(io.read()) -- Read the users input and check if this is a number.
 	
 	while newNumber == nil do -- If the user's input is not a number.
 		print("Not a number, try again!") -- Asks the user for a different input.

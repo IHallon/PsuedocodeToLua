@@ -14,8 +14,10 @@ for x = 1, 10 do -- Repeats the program 10 times.
 	
 	if randomNumber % 2 == 0 then -- If the random number is even.
 		print("Even") -- Prints out that the number is even.
+		evenCounter = evenCounter + 1 -- Adds 1 to the even number counter.
 	else  -- If the random number is odd.
 		print("Odd") -- Prints out that the number is odd.
+		oddCounter = oddCounter + 1 -- Adds 1 to the odd number counter.
 	end
 end
 

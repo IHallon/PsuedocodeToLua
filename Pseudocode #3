@@ -1,4 +1,5 @@
 -- Have a user input an unknown amount of numbers, add them together and print the results.
+
 -- Variables
 done = "y"
 total = 0
